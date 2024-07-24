@@ -32,7 +32,7 @@
     font-weight: 800;
     color: rgba(13, 19, 33, 1);
 }
-.section-description{
+.section-description .item-description{
     font-size: 16px;
     font-weight: 400;
     color: rgba(13, 19, 33, 1);
@@ -101,11 +101,42 @@ main{
 }
 
 /* about items */
-.about-item{display: flex;
-justify-content: space-between;}
 
-.about-font{
+.about-item{
+    max-width: 477px;
+}
+
+.item-title{
     font-size: 24px;
     font-weight: bold;
     color: rgba(13, 19, 33, 0.7);
+}
+.first-item{
+    display: flex;
+    justify-content: space-between;
+    padding: 48px;
+    margin-top: 32px;
+}
+.second-item{
+    display: flex;
+    justify-content: left;
+    padding: 48px;
+    margin-top: 32px;
+}
+.item-pic-2{
+    width: 240px;
+}
+.item-pic-1{
+    width: 274px;
+}
+.our{
+    padding: 0px 144px 48px 144px;
+}
+.our-edit{
+    border-radius: 16px;
+    padding: 32px;
+    width: 1076px;
+    max-height: 550px;
+    border: rgba(13, 19, 33, 0.2);
+    
 }
