@@ -15,6 +15,7 @@
     padding: 17px 24px;
     border-radius: 8px;
     background-color: white;
+    font-size: 20px;
 }
 
 .btn-secondary{
@@ -24,6 +25,21 @@
     background-color: #0D1321;
     color: #FFFFFF
     ;
+}
+
+.section-title{
+    font-size: 32px;
+    font-weight: 800;
+    color: rgba(13, 19, 33, 1);
+}
+.section-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(13, 19, 33, 1);
+}
+
+.secondary-bg{
+    background-color: rgba(13, 19, 33, 0.02);
 }
 
 /* Nav styles  */
@@ -42,6 +58,12 @@ nav ul li{
     font-weight: 600;
    
 }
+
+/* main */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 /* Banner style */      
 
 .banner-title{
@@ -59,11 +81,31 @@ nav ul li{
 .banner-content{
     max-width: 998px;
     max-height: 581px;
-    margin: 26px 221px 45px 221px;    
+    padding: 26px 221px 45px 221px;    
 }
 .banner{
     background-image: url(../assets/Hero-bg.png);
     background-size: 1440px 652px;
     text-align: center;
+}
 
+/* styles */
+.my{
+    border-radius: 16px;
+    padding: 80px 97px;
+    margin-top: 74px;
+}
+.my-position{
+    text-align: center;
+    
+}
+
+/* about items */
+.about-item{display: flex;
+justify-content: space-between;}
+
+.about-font{
+    font-size: 24px;
+    font-weight: bold;
+    color: rgba(13, 19, 33, 0.7);
 }
