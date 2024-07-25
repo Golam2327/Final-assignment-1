@@ -180,4 +180,44 @@ margin-bottom: 150px}
     max-height: 299px;
 }
 .anchor{font-size: 16px;
-font-weight: bold;}
+font-weight: bold;
+}
+
+/* last */
+.last-title{
+    font-size: 32px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 1);
+    
+    
+}
+.last{
+    background-image: url(../assets/handshake.jpg);
+    background-size: 1140px 313px;
+    background-repeat: no-repeat;
+    text-align: center;
+    border-radius: 16px;
+    padding: 64px 48px;
+}
+.last-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    
+
+}
+.search{
+   width: 548px;
+   height: 57px;
+   background-color: rgba(255, 255, 255, 1);
+   border-radius: 8px;
+}
+.submit{
+    border-radius: 8px;
+    height: 57px;
+    width: 120px;
+    background-color: rgba(255, 255, 255, 1);
+    font-weight: 600;
+    font-size: 20px;
+    color: rgba(13, 19, 33, 1);
+}
